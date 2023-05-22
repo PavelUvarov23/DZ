@@ -1,0 +1,15 @@
+E:\Паша_Geekbrains\C#\Semi1\bin\Debug\net6.0\Semi1.exe
+E:\Паша_Geekbrains\C#\Semi1\bin\Debug\net6.0\Semi1.deps.json
+E:\Паша_Geekbrains\C#\Semi1\bin\Debug\net6.0\Semi1.runtimeconfig.json
+E:\Паша_Geekbrains\C#\Semi1\bin\Debug\net6.0\Semi1.dll
+E:\Паша_Geekbrains\C#\Semi1\bin\Debug\net6.0\Semi1.pdb
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.csproj.AssemblyReference.cache
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.AssemblyInfoInputs.cache
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.AssemblyInfo.cs
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.csproj.CoreCompileInputs.cache
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.dll
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\refint\Semi1.dll
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.pdb
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\Semi1.genruntimeconfig.cache
+E:\Паша_Geekbrains\C#\Semi1\obj\Debug\net6.0\ref\Semi1.dll
