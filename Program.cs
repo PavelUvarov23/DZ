@@ -1,86 +1,46 @@
-﻿//Домашние задания 1
+﻿//Домашние задания
 
-Console.Write("Введите первое число: ");
 
-int firstNumber = Convert.ToInt32(Console.ReadLine());
+Random rnd = new Random();
 
-Console.Write("Введите второе число: ");
+int rndNum = rnd.Next(100, 1000);
 
-int secondNumber = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine (rndNum);
 
-if (firstNumber>secondNumber)
+int twoNum = rndNum / 10 % 10;
 
-{
-Console.WriteLine("Большее число " + firstNumber + " Меньшее число " + secondNumber);
-}
-else
-{
-    Console.WriteLine("Большее число " + secondNumber + " Меньшее число " + firstNumber);
-}
+Console.Write (twoNum);
 
 
 
-//Домашние задания 2
-
-Console.Write("Введите первое число: ");
-
-int firstNumber = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Введите второе число: ");
-
-int secondNumber = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Введите третье число: ");
-
-int thirdNumber = Convert.ToInt32(Console.ReadLine());
-
-int max;
-
-if (firstNumber>secondNumber)
-{
-    max = firstNumber;
-}
-else
-{
-   max = secondNumber; 
-}
-if (max>thirdNumber)
-
-Console.WriteLine(max);
-
-else
-{
-    Console.WriteLine(thirdNumber);
-}
-
-
-
-//Домашние задания 3
-Console.Write("Введите число: ");
-
-int N = Convert.ToInt32(Console.ReadLine());
-
-int point = 0;
-
-while (point<=N)
-{
-    Console.WriteLine(point);
-    point = point + 2;
-}
-
-
-
-//Домашние задания 4
 
 Console.Write("Введите число: ");
 
-int N = Convert.ToInt32(Console.ReadLine());
+int Num = int.Parse(Console.ReadLine());
 
-if (N%2 == 0)
+int thirdNum = Num % 10;
 
-Console.WriteLine("Да");
+if (Num > 100 && Num < 999)
+{
+    Console.Write(thirdNum);
+}
 
+if (Num < 100)
+{
+    Console.Write("Третьей цифры нет");
+}
+
+
+
+Console.Write("Введите номер дня недели: ");
+
+int Num = int.Parse(Console.ReadLine());
+
+if (Num < 6)
+{
+    Console.Write("Рабочий день");
+}
 else
-
-Console.WriteLine("Нет");
-
+{
+    Console.Write("Выходной");
+}
