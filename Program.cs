@@ -1,4 +1,4 @@
-﻿//Домашние задания
+﻿//Домашние задания 1
 
 
 Random rnd = new Random();
@@ -12,7 +12,7 @@ int twoNum = rndNum / 10 % 10;
 Console.Write (twoNum);
 
 
-
+//Домашние задания 2
 
 Console.Write("Введите число: ");
 
@@ -32,15 +32,23 @@ if (Num < 100)
 
 
 
+//Домашние задания 3
+
 Console.Write("Введите номер дня недели: ");
 
 int Num = int.Parse(Console.ReadLine());
+
+if (Num > 7)
+{
+    Console.Write("Это не день недели");
+}
 
 if (Num < 6)
 {
     Console.Write("Рабочий день");
 }
-else
+if (Num >= 6 && Num <= 7)
 {
     Console.Write("Выходной");
 }
+
